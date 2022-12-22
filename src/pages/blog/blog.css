@@ -1,0 +1,37 @@
+h3 {
+    margin: 10px 0;
+}
+
+body {
+    background: #333;
+    color: white;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+
+}
+
+article {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.post-credit {
+    margin-top: 10px;
+    font-size: 16px;
+    color: orange;
+}
+
+.create-at {
+    margin-top: 5px;
+    font-size: 14px;
+}

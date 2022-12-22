@@ -14,7 +14,7 @@ function App() {
         <h1>ChiPoPo</h1>
         <div style={{ fontSize: "20px", fontWeight: "semi-bold" }}>
           <Link to="invoices">Invoices</Link> |{" "}
-          <Link to="expenses">Expenses</Link>
+          <Link to="expenses">Expenses</Link> |<Link to="blog">Blog</Link> |
         </div>
       </div>
       <div style={{ padding: "20px" }}>

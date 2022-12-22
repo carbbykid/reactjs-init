@@ -9,6 +9,7 @@ import NotFound from "./pages/NotFound";
 import NewInvoice from "./pages/invoices/new-invoice";
 import { store } from "./app/store";
 import { Provider } from "react-redux";
+import Blog from "./pages/blog";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -30,6 +31,7 @@ root.render(
               <Route path="new" element={<NewInvoice />} />
             </Route>
             <Route path="expenses" element={<Expenses />} />
+            <Route path="blog" element={<Blog />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
